@@ -1,0 +1,166 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.tudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1f080b, #bc0d0d);
+}
+
+.quadroo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-formulario {
+  display: flex;
+}
+
+.metade-esquerdaaaa,
+.Skateb {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.metade-esquerdaaaa img,
+.Skateb {
+  width: 100%;
+  height: 66.9vh;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+}
+
+.metade-direitaaa {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulariooo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #1f080b, #bc0d0d);
+  border-radius: 5px;
+  padding: 20px;
+  flex-direction: column;
+  border: 2px solid #000;
+  max-width: 60vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titulo-formulariooo {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.entrada-formulario {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botao-formulario {
+  width: 100%;
+  padding: 10px;
+  background: #2e9fdc;
+  margin-top: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #073f62;
+  }
+}
+
+.link-personalizado {
+  text-align: center;
+  margin-top: 20px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.metade-esquerdaaaa img,
+.Skateb {
+ 
+  @media (max-width: 1850px) {
+    width: 100%;
+    height: 73.4vh;
+    border: 1px solid #000;
+    border-radius: 5px;
+  
+  }
+
+
+  @media (max-width: 650px) {
+    display: none; 
+
+  }
+  .formulariooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #1f080b, #bc0d0d);
+    border-radius: 15px;
+    padding: 20px;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  
+    @media (max-width: 650px) {
+      max-width: 80%; 
+    }
+  
+    @media (min-width: 651px) {
+      max-width: 400px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+}
