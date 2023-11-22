@@ -26,10 +26,12 @@ root.render(
         <Route path='/' element={<Bemvindo/>} />
         <Route path='/logincli' element={<Logincli/>}/>
         <Route path='/cadastras'element={<Cadastras/>}/>
+        <Route path='/login' element={<Login/>} />
+
 
         <Route path='/cadastrarprodutos' element={<Cadastrarprodutos/>} />
         <Route path='/paginainicial' element={<Paginainicial/>} />
-        <Route path='/login' element={<Login/>} />
+        
         <Route path='/produtos' element={<Produtos/>} />
         <Route path='/carrinho' element={<Carrinho/>} />
         <Route path='/comprar' element={<Comprar/>} />

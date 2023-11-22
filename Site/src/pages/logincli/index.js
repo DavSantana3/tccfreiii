@@ -1,6 +1,6 @@
 
 
-import './index.scss';
+import '../logincli/index.scss'
 import logo from '../../assets/images/logo.png';
 import parede from '../../assets/images/parede.png';
 import insta from '../../assets/images/insta.png';
@@ -40,16 +40,18 @@ function App() {
     
 
         <div className="custom-link">
-         <a href='/cadastrase '>Cadastra-se aqui</a>
+         <a href='/cadastras '>Cadastra-se aqui</a>
         </div>
 
-
+      
 
         </div>
 </div>        
 
     </div>
-
+  <div className="escondido">
+         <a href='./login'>So adm</a>
+        </div>
   </div>
 
 </div>

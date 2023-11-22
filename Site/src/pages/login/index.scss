@@ -1,116 +1,105 @@
-
-
-*{
+.Appp{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.Cabecalhoow {
-  width: 100%;
-  height: 70px;
-  background: #781c03;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.Logo {
-  width: 60px;
-  height: auto;
-  margin-left: 20px;
-}
-
-
-.principal {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(to bottom, #070425, #4871a4);
-
-}
-
-
-.metade-esquerda {
-  flex: 1;
-  height: 100vh;
-  background: url(../../assets/images/skatista.png);
-  background-size: cover;
-}
-
-
-.metade-direita {
-  flex: 1;
+.principal{
+  background: linear-gradient(to bottom, #000, #1F4784);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.degrade {
-  background: linear-gradient(to right, #001021, #5e85ad); 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-
-.formulario-login {
+.quadrado{
+  background: linear-gradient(to bottom, #1F4784, #000);
+  width: 60vw;
+  height: 65vh;
   border-radius: 10px;
-  background: linear-gradient(to right, #3678b9, #052443);
-  border: 2px solid #201f1f;
-  box-shadow: 0 0 10px rgba(149, 143, 143, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+
+.img{
+  background: url(../../assets/images/loginnn.svg);
+  flex: 1;
+  width: 30vw;
+  height: 65vh;
+  border-radius: 10px;
+  background-size: cover;
+  border: 3px solid #000;
+}
+
+.login{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30vw;
+  height: 65vh;
+}
+
+
+.formulario-loginn {
+  
   color: #ccc;
   padding: 20px;
   width: 80%;
   max-width: 300px;
-  height: 250px;
   text-align: center;
-  position: relative; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 15px;
+  
 }
 
-.login-title {
-  
+.social-icons {
+  display: flex;
+  justify-content: space around;
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.login-titlee {
   padding: 10px;
   color: #fff;
   position: absolute;
-  top: -82px; 
+  top: -82px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 75px;
   border-radius: 5px;
-  z-index: 2; 
+  z-index: 2;
 }
 
-
-
-
-
-
-.formulario-login input[type="password"] {
-  
+.formulario-loginn input[type="password"] {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
-  border-radius: 7px;
- 
+  border-radius: 5px;
 }
 
-
-.formulario-login input[type="textooo"]{
+.formulario-loginn input[type="textoo"] {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
-  border-radius: 7px;
- 
+  border-radius: 5px;
 }
 
-.formulario-login button {
+.formulario-loginn button {
   width: 50%;
   padding: 10px;
   background: #2e9fdc;
@@ -119,28 +108,26 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s; 
-  border: 2px solid #000; 
-  box-sizing: border-box; 
-
-
-  
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+  box-sizing: border-box;
 }
 
-.formulario-login button:hover {
+.formulario-loginn button:hover {
   background-color: #073f62;
-  
 }
 
-
-@media (max-width: 840px) {
-  .metade-esquerda {
-    display: none;
-  }
+.custom-link {
+  text-align: center;
+  margin-top: -20px;
 }
 
-@media (max-width: 1100px) {
-  .metade-esquerda {
-    background-image: url(../../assets/images/skatista.png);
-  }
+.custom-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.custom-link a:hover {
+  text-decoration: underline;
 }
