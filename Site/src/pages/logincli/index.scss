@@ -1,64 +1,48 @@
-* {
+.App{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-.principall {
+.principal{
+  background: linear-gradient(to bottom,#bc0d0d,  #1f080b);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: linear-gradient(to bottom, #1f080b, #bc0d0d);
 }
 
-.quadro {
+.quadrado{
+  background: linear-gradient(to bottom,#1f080b, #bc0d0d);
+  width: 60vw;
+  height: 65vh;
+  border-radius: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to bottom, #bc0d0d, #1f080b);
-  border-radius: 15px;
-  padding: 20px;
-  width: 850px;
-  height: 60%;
-  
+  flex-direction: row;
 }
 
-.metade-esquerdaa {
+.img{
+  background: url(../../assets/images/LoginCli.svg);
   flex: 1;
-  height: 72.5vh;
-
-}
-
-.metade-esquerdaa img {
-  flex: 1;
-  width: 100%;
-  height: 60vh;
-  margin-top: 65px;
-  margin-left: -20px;
+  width: 30vw;
+  height: 65vh;
   border-radius: 10px;
   background-size: cover;
-  margin-left: -40px;
   border: 3px solid #000;
 }
 
-
-
-
-
-.metade-direitaa {
+.login{
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  flex-direction: column;
+  width: 30vw;
+  height: 65vh;
 }
 
+
 .formulario-loginn {
-  background: linear-gradient(to bottom, #ea2e4a, #520c0c);
-  border: 2px solid #201f1f;
-  box-shadow: 0 0 10px rgba(149, 143, 143, 0.2);
+  
   color: #ccc;
   padding: 20px;
   width: 80%;
@@ -147,39 +131,3 @@
 .custom-link a:hover {
   text-decoration: underline;
 }
-
-@media (max-width: 860px) {
-  .metade-esquerdaa {
-    display: none;
-  }
-}
-
-
-@media (max-width: 859px) {
-  .quadro {
-    background: linear-gradient(to bottom,#bc0d0d,  #1f080b);
-    
-
-  }
-}
-
-
-@media (max-width: 1212px) {
-  .quadro {
-    background: linear-gradient(to bottom,#bc0d0d,  #1f080b);
-    
-  }
-}
-
-
-@media (max-width: 1881px) {
-  .metade-esquerdaa {
-    height: 74.7vh;
-  }
-}    
-
-@media (max-width: 1920px) {
-  .metade-esquerdaa {
-    height: 73.7vh;
-  }
-}    

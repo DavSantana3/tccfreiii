@@ -8,17 +8,23 @@ import { Link } from 'react-router-dom';
 function App() {
     return (
       <div className="App">
-        <div className='tudo'>
+
+
+
         <div className='quadroo'>
-        <div className="conteudo-principal">
+
+
         <div className="container-formulario">
+
           <div className="metade-esquerdaaaa">
             <img src={Skateb} alt="Skateb" className="Skateb" />
           </div>
 
           
           <div className="metade-direitaaa">
+
             <div className="formulariooo">
+              
               <h1 className="titulo-formulariooo">Cadastro</h1>
               <br />
               <br />
@@ -43,11 +49,8 @@ function App() {
         
       </div>
         
-      </div>
-        
-      </div>
+
     );
   }
   
   export default App;
-  
