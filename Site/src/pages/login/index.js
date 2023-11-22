@@ -1,14 +1,8 @@
-import '../login/index.scss'
-
-import perfil from '../../assets/images/skate.jpeg';
-import logo from '../../assets/images/logo.png';
-import skatista from '../../assets/images/skatista.png';
-
-
-function App() {
+import './index.scss'
+export default function Login() {
   return (
 
-    <div className="Appp">
+    <div className="Applogin">
 
 <div className='principal'>
 
@@ -35,6 +29,9 @@ function App() {
     
 
 
+<div className='A'>
+        <a href='./Logincli'>Login</a>
+</div>
 
 
         </div>
@@ -51,6 +48,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
-  

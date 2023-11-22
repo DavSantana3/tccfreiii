@@ -1,14 +1,9 @@
-import './index.scss';
-import parede from '../../assets/images/parede.png';
-import logo from '../../assets/images/logo.png';
-import Skateb from '../../assets/images/Skateb.jpg'
+import './index.scss'
 import { Link } from 'react-router-dom';
 
-
-
-function App() {
+function Cadastras() {
   return (
-    <div className="App">
+    <div className="Appcadastras">
 
 <div className='principal'>
 
@@ -53,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Cadastras;

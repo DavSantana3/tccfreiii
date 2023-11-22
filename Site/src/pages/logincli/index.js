@@ -1,19 +1,8 @@
+import './index.scss'
 
-
-import '../logincli/index.scss'
-import logo from '../../assets/images/logo.png';
-import parede from '../../assets/images/parede.png';
-import insta from '../../assets/images/insta.png';
-import face from '../../assets/images/face.png';
-import google from '../../assets/images/google.png';
-import skat from '../../assets/images/Skat.jpg'
-import skateb from '../../assets/images/Skateb.jpg'
-import { Link } from 'react-router-dom';
-
-
-function App() {
+export default function Logincli() {
   return (
-    <div className="App">
+    <div className="Applogincli">
 
 <div className='principal'>
 
@@ -50,7 +39,7 @@ function App() {
 
     </div>
   <div className="escondido">
-         <a href='./login'>So adm</a>
+         <a href='./login'>Adm</a>
         </div>
   </div>
 
@@ -61,5 +50,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

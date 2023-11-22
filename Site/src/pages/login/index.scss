@@ -1,8 +1,8 @@
-.Appp{
+.Applogin{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+
 
 .principal{
   background: linear-gradient(to bottom, #000, #1F4784);
@@ -130,4 +130,13 @@
 
 .custom-link a:hover {
   text-decoration: underline;
+}
+
+.A{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+}
+
 }
